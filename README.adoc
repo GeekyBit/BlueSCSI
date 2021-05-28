@@ -78,6 +78,10 @@ See <a href="docs/assembly.md">docs/assembly.md</a>
 
 Hard Disk image files are placed in the root directory of a `ExFat` or `FAT32` formatted SD card. https://twitter.com/theory_retro/status/1376571371694723076[`ExFat` may be much faster]. Use a premade or blank disk below. These images are compatible with the RaSCSI device and Basilisk II emulator.
 
+Here is a quick guide on how to prep your SD Card.
+
+https://youtu.be/WuXM1oGt8cE
+
 The naming convention is as follows (file name max 32 characters). Note you may mount multiple drives at a time to different SCSI ID's.
 
 `HDxy_512.hda`
@@ -108,11 +112,19 @@ Premade images are handy to just drop onto your SD card and go. You can use an e
 
 ### Blanks
 
+Here is a video that will Guide you through a setup of a blank image file.
+
+https://youtu.be/2O-2HR9pJlI
+
 These are blank, formatted drives. If you want to install an OS or software on an empty drive, use one of these.
 
 * Preformatted HFS blank images in various sizes - https://github.com/erichelgeson/BlueSCSI/tree/main/docs/MacHD.zip
 
 ### Custom Disk Images (Advanced)
+
+Here is a video guide for setting up an image file from scratch. It also includes how to use DD for windows.
+
+https://youtu.be/tUE-6qujuvs
 
 This technique is useful when you would like a disk image larger than the pre-built images in the previous section.
 
